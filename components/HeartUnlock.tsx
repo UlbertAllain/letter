@@ -50,8 +50,7 @@ export function HeartUnlock({ onNext }: HeartUnlockProps) {
           </h2>
 
           <p className="mx-auto mt-4 max-w-[310px] text-[15px] leading-7 text-[#5f4658]">
-            Sentuh lima hati kecil ini dulu. Setelah itu, surat Rayhan akan
-            terbuka.
+            pencet dulu deh satu satu
           </p>
 
           <div className="relative mx-auto mt-8 h-[340px] max-w-[330px] rounded-[2rem] border border-rose-100 bg-white/45 shadow-inner">

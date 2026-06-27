@@ -15,12 +15,12 @@ type ForgiveGameProps = {
 };
 
 const noMessages = [
-  "Rayhan paham kalau belum semudah itu.",
-  "Tidak apa-apa. Tapi baca dulu, ya.",
-  "Jawaban itu valid. Rayhan tetap ingin minta maaf.",
-  "Kalau masih marah, Rayhan mengerti.",
-  "Tidak harus selesai sekarang.",
-  "Kamu tetap punya pilihan.",
+  "loh",
+  "eitssss gabisa",
+  "wleeeee",
+  "pencet tombol satunya ajaaaaaaa ",
+  "kaburrrrr",
+  "yahhhhhhh",
 ];
 
 const mobileSafePositions = [
@@ -81,7 +81,7 @@ export function ForgiveGame({ onAccept, onNeedTime }: ForgiveGameProps) {
           </p>
 
           <h2 className="mt-4 font-display text-[42px] font-extrabold leading-tight text-[#9f1d4e]">
-            Maafin Rayhan?
+            Maafin aku yaaa?
           </h2>
 
           <div className="mx-auto mt-3 h-[2px] w-24 rounded-full bg-rose-300" />
@@ -131,8 +131,7 @@ export function ForgiveGame({ onAccept, onNeedTime }: ForgiveGameProps) {
 
           {noCount >= 6 && (
             <div className="mx-auto mt-1 max-w-[290px] rounded-[1.5rem] border border-rose-100 bg-white/75 px-5 py-4 text-xs leading-5 text-[#8b6f80]">
-              Kalau memang belum siap, itu tidak apa-apa. Rayhan tetap
-              menghormati keputusan Monica.
+              wleeee
             </div>
           )}
         </div>

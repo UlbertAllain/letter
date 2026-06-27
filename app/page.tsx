@@ -10,8 +10,6 @@ import { ForgiveGame } from "@/components/ForgiveGame";
 import { HeartUnlock } from "@/components/HeartUnlock";
 import { SuccessScreen } from "@/components/SuccessScreen";
 import { LetterSection } from "@/components/LetterSection";
-import { MonicaCards } from "@/components/MonicaCards";
-import { MemoryJar } from "@/components/MemoryJar";
 import { RepairChecklist } from "@/components/RepairChecklist";
 import { FinalSection } from "@/components/FinalSection";
 import { PaperTexture } from "@/components/CuteDecorations";
@@ -25,8 +23,6 @@ type Step =
   | "heart-unlock"
   | "success"
   | "letter"
-  | "cards"
-  | "memory"
   | "repair"
   | "final"
   | "need-time";
@@ -39,14 +35,12 @@ const stepMeta: Record<Step, { index: number; label: string }> = {
   "heart-unlock": { index: 5, label: "Buka pesan" },
   success: { index: 6, label: "Terima kasih" },
   letter: { index: 7, label: "Surat" },
-  cards: { index: 8, label: "Hal kecil" },
-  memory: { index: 9, label: "Memory jar" },
-  repair: { index: 10, label: "Perbaikan" },
-  final: { index: 11, label: "Penutup" },
-  "need-time": { index: 11, label: "Butuh waktu" },
+  repair: { index: 8, label: "Perbaikan" },
+  final: { index: 9, label: "Penutup" },
+  "need-time": { index: 10, label: "Butuh waktu" },
 };
 
-const totalSteps = 11;
+const totalSteps = 10;
 
 export default function Home() {
   const [step, setStep] = useState<Step>("opening");
@@ -129,32 +123,23 @@ export default function Home() {
 
           {step === "letter" && (
             <PageMotion keyName="letter">
-              <LetterSection onNext={() => goToStep("cards")} />
-            </PageMotion>
-          )}
-
-          {step === "cards" && (
-            <PageMotion keyName="cards">
-              <MonicaCards onNext={() => goToStep("memory")} />
-            </PageMotion>
-          )}
-
-          {step === "memory" && (
-            <PageMotion keyName="memory">
-              <MemoryJar onNext={() => goToStep("repair")} />
+              <LetterSection onNext={() => goToStep("repair")} />
             </PageMotion>
           )}
 
           {step === "repair" && (
             <PageMotion keyName="repair">
-              <RepairChecklist onNext={() => goToStep("final")} />
+              <RepairChecklist
+                whatsappNumber="627817181433"
+                onNext={() => goToStep("final")}
+              />
             </PageMotion>
           )}
 
           {step === "final" && (
             <PageMotion keyName="final">
               <FinalSection
-                whatsappNumber=""
+                whatsappNumber="627817181433"
                 onReadAgain={() => goToStep("letter")}
               />
             </PageMotion>
@@ -174,12 +159,12 @@ export default function Home() {
                     </h1>
 
                     <p className="mt-5 text-[16px] leading-8 text-[#5f4658]">
-                      Kalau kamu masih butuh waktu, Rayhan mengerti. Terima
-                      kasih karena sudah membuka halaman ini.
+                      Kalau kamu masih butuh waktu, aku mengerti. Terima kasih
+                      karena sudah membuka halaman ini.
                     </p>
 
                     <p className="mt-4 text-[16px] leading-8 text-[#5f4658]">
-                      Rayhan tidak akan memaksa semuanya langsung kembali baik.
+                      aku tidak akan memaksa semuanya langsung kembali baik.
                     </p>
 
                     <button

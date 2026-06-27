@@ -62,18 +62,12 @@ export function FinalSection({
           <div className="mt-5 max-w-[310px] space-y-5 text-[16px] leading-8 text-[#5f4658]">
             <p>
               Kalau setelah baca ini kamu masih belum siap bicara, tidak
-              apa-apa. Rayhan mengerti.
+              apa-apa, it's okay
             </p>
 
-            <p>
-              Tapi kalau suatu saat kamu mau ngobrol, Rayhan akan mendengarkan
-              dengan lebih tenang.
-            </p>
+            <p>Tapi kalau suatu saat kamu mau ngobrol, aku tetep ada kok</p>
 
-            <p>
-              Bukan untuk memaksa semuanya kembali seperti dulu. Tapi untuk
-              memperbaiki bagian yang pernah Rayhan rusak.
-            </p>
+            <p>makasii yaaa</p>
           </div>
 
           <div className="mt-8 rounded-[1.6rem] border border-rose-100 bg-white/70 p-4 shadow-[0_14px_34px_rgba(190,18,60,0.10)]">
@@ -106,7 +100,7 @@ export function FinalSection({
                 className="flex items-center gap-3 rounded-[1.2rem] border border-rose-100 bg-[#fffaf7] px-4 py-3 text-left text-sm font-bold text-[#68384f] active:scale-[0.98]"
               >
                 <Send size={19} className="text-rose-400" />
-                Aku mau Rayhan jelasin
+                Aku mau kamu jelasin
               </a>
 
               <a
@@ -115,7 +109,7 @@ export function FinalSection({
                 className="flex items-center gap-3 rounded-[1.2rem] bg-gradient-to-r from-rose-400 to-pink-500 px-4 py-3 text-left text-sm font-extrabold text-white shadow-[0_14px_30px_rgba(244,63,94,0.22)] active:scale-[0.98]"
               >
                 <MessageCircle size={19} />
-                Chat Rayhan
+                Chat aku
               </a>
             </div>
           </div>
@@ -130,8 +124,8 @@ export function FinalSection({
                 Tidak apa-apa, Monica.
               </p>
               <p className="mt-2">
-                Rayhan akan menghormati itu. Terima kasih sudah membaca sampai
-                akhir. Jaga diri baik-baik.
+                aku akan menghormati itu. Terima kasih sudah membaca sampai
+                akhir.
               </p>
             </motion.div>
           )}

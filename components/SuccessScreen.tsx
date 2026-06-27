@@ -31,12 +31,12 @@ export function SuccessScreen({ onNext }: SuccessScreenProps) {
           </div>
 
           <h2 className="font-display text-4xl font-extrabold text-[#9f1d4e]">
-            Makasih, Monica
+            Makasiiiiiii
           </h2>
 
           <p className="mx-auto mt-5 max-w-[300px] text-[16px] leading-8 text-[#5f4658]">
-            Rayhan tahu satu klik ini bukan berarti semuanya langsung selesai.
-            Tapi makasih karena kamu masih mau baca.
+            aku tahu satu klik ini bukan berarti semuanya langsung selesai. Tapi
+            makasih karena kamu masih mau baca.
           </p>
 
           <button

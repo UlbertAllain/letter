@@ -31,29 +31,29 @@ export function OpeningScreen({ onNext }: OpeningScreenProps) {
         <div className="relative z-10 text-center">
           <div className="mx-auto mb-6 inline-flex items-center gap-2 rounded-full border border-rose-200 bg-white/75 px-4 py-2 text-sm font-bold text-rose-500 shadow-sm">
             <Sparkles size={16} />
-            Pesan singkat dari Rayhan
+            Pesan singkat dari aku
           </div>
 
           <h1 className="font-display text-5xl font-extrabold leading-tight text-[#8a1744]">
-            Hai Monica
+            Haaaai Monica
           </h1>
 
           <p className="mx-auto mt-5 max-w-[290px] text-[16px] leading-8 text-[#5f4658]">
-            Rayhan tahu mungkin ini bukan waktu yang paling mudah. Tapi dia
-            ingin menyampaikan sesuatu dengan cara yang lebih baik.
+            aku tahu mungkin ini bukan waktu yang paling mudah. Tapi aku ingin
+            menyampaikan sesuatu dengan cara yang lebih baik.
           </p>
 
           <div className="mt-8 grid grid-cols-3 gap-3">
             <StickyNote icon="💗" title="Tidak memaksa" rotate="-rotate-2">
-              Kamu tidak harus langsung membalas.
+              Kamu ngga harus langsung membalas.
             </StickyNote>
 
             <StickyNote icon="🌸" title="Tidak menyalahkan" rotate="rotate-1">
-              Ini bukan untuk membuat kamu merasa bersalah.
+              Ini bukan untuk membuatmu merasa bersalah.
             </StickyNote>
 
             <StickyNote icon="💌" title="Cuma pesan" rotate="-rotate-1">
-              Rayhan hanya ingin bicara lebih tenang.
+              aku hanya ingin bicara lebih tenang.
             </StickyNote>
           </div>
 

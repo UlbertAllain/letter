@@ -12,7 +12,7 @@ export function StoryProgress({ current, total, label }: StoryProgressProps) {
   return (
     <div className="pointer-events-none fixed left-1/2 top-4 z-50 w-full max-w-[430px] -translate-x-1/2 px-5">
       <motion.div
-        initial={{ opacity: 0, y: -12 }}
+        initial={{ opacity: 0, y: -10 }}
         animate={{ opacity: 1, y: 0 }}
         className="rounded-full border border-white/70 bg-white/65 px-4 py-3 shadow-[0_12px_35px_rgba(190,18,60,0.12)] backdrop-blur-xl"
       >

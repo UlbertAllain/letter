@@ -12,25 +12,25 @@ const moods = [
     icon: "😤",
     label: "Masih marah",
     response:
-      "Wajar. Rayhan tidak berharap semuanya langsung baik-baik saja. Baca pelan-pelan saja.",
+      "Wajar kok. aku tidak berharap semuanya langsung baik-baik saja. Baca pelan-pelan aja.",
   },
   {
     icon: "😔",
     label: "Capek",
     response:
-      "Rayhan paham. Kalau halaman ini terasa terlalu banyak, kamu boleh berhenti kapan pun.",
+      "aku paham. Kalau halaman ini terasa terlalu banyak, kamu boleh berhenti kapan pun.",
   },
   {
     icon: "👀",
     label: "Penasaran sedikit",
     response:
-      "Cukup itu dulu. Rayhan cuma ingin menyampaikan sesuatu dengan cara yang lebih rapi.",
+      "Cukup itu dulu. aku cuma ingin menyampaikan sesuatu dengan cara yang lebih rapi.",
   },
   {
     icon: "🙂",
     label: "Boleh baca",
     response:
-      "Terima kasih. Rayhan akan coba bicara dengan tenang, bukan membela diri.",
+      "Terima kasih. aku akan coba bicara dengan tenang, bukan membela diri.",
   },
 ];
 

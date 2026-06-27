@@ -26,16 +26,16 @@ export function PermissionScreen({ onNext }: PermissionScreenProps) {
 
         <div className="relative z-10 text-center">
           <p className="text-sm font-extrabold uppercase tracking-[0.28em] text-rose-400">
-            Sebentar saja
+            Sebentar aja
           </p>
 
           <h2 className="mt-3 font-display text-5xl font-extrabold text-[#9f1d4e]">
-            Baca pelan-pelan
+            Baca pelan-pelan ya
           </h2>
 
           <p className="mx-auto mt-4 max-w-[310px] text-[16px] leading-8 text-[#5f4658]">
-            Halaman ini tidak panjang. Isinya cuma beberapa bagian kecil yang
-            Rayhan susun supaya pesannya lebih jelas.
+            Halaman ini ngga panjang. Isinya cuma beberapa bagian kecil yang aku
+            susun supaya pesannya lebih jelas.
           </p>
 
           <div className="mt-10 grid grid-cols-1 gap-5">
@@ -61,7 +61,7 @@ export function PermissionScreen({ onNext }: PermissionScreenProps) {
                 Ada bagian serius
               </h3>
               <p className="mt-2 text-sm leading-6 text-[#765c6c]">
-                Karena Rayhan tahu ini bukan masalah kecil.
+                Karena aku tahu ini bukan masalah kecil.
               </p>
             </div>
 
